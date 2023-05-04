@@ -8,9 +8,6 @@ Created on Wed May  3 16:49:44 2023
 # importing libraries --------------------------
 import streamlit as st
 import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
-import seaborn as sb
 
 #streamlit basic configurations
 st.set_page_config(layout='wide', initial_sidebar_state='expanded')
@@ -40,5 +37,5 @@ California Polytechnic State University, San Luis Obispo
 
 from PIL import Image
 
-info = Image.open(r"C:\Users\eevee\Cal Poly\Vanessa Christine Veto - Redo Twitter Data\DATASIZE.png")
+info = Image.open(r"DATASIZE.png")
 st.image(info)
