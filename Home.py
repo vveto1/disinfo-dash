@@ -10,6 +10,8 @@ import streamlit as st
 # importing libraries --------------------------
 import pandas as pd
 import streamlit.components.v1 as components
+from streamlit import components
+
 
 #streamlit basic configurations
 st.set_page_config(layout='wide', initial_sidebar_state='expanded')
