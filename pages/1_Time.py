@@ -49,22 +49,22 @@ from PIL import Image
 
 @st.cache
 def load_time_():
-    timeline = Image.open(r"C:\Users\eevee\Cal Poly\Vanessa Christine Veto - Redo Twitter Data\HopefullyOfficialGraphs\Time\time.png")
+    timeline = Image.open(r"time.png")
     return timeline
 
 @st.cache
 def load_serbia():
-    serbia = Image.open(r"C:\Users\eevee\Cal Poly\Vanessa Christine Veto - Redo Twitter Data\Plots_PNG\Time Series\Serbia_TS_PLot_M.png")
+    serbia = Image.open(r"Serbia_TS_PLot_M.png")
     return serbia 
 
 @st.cache
 def load_china():
-    china = Image.open(r"C:\Users\eevee\Cal Poly\Vanessa Christine Veto - Redo Twitter Data\Plots_PNG\Time Series\China_TS_PLot.png")
+    china = Image.open(r"China_TS_PLot.png")
     return china
 
 @st.cache
 def load_turkey():
-    turkey = Image.open(r"C:\Users\eevee\Cal Poly\Vanessa Christine Veto - Redo Twitter Data\Plots_PNG\Time Series\Turkey_TS_PLot.png")
+    turkey = Image.open(r"Turkey_TS_PLot.png")
     return turkey
 
 st.image(load_time_())
