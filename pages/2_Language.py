@@ -8,9 +8,7 @@ Created on Mon Apr 24 11:52:33 2023
 # importing libraries --------------------------
 import streamlit as st
 import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
-import seaborn as sb
+
 
 #streamlit basic configurations
 st.set_page_config(layout='wide', initial_sidebar_state='expanded')
@@ -62,31 +60,31 @@ from PIL import Image
 
 @st.cache
 def load_overall():
-    overall = Image.open(r"C:\Users\eevee\Cal Poly\Vanessa Christine Veto - Redo Twitter Data\HopefullyOfficialGraphs\Language\langBar.png")
+    overall = Image.open(r"langBar.png")
     return overall
 @st.cache
 def load_china():
-    china = Image.open(r"C:\Users\eevee\Cal Poly\Vanessa Christine Veto - Redo Twitter Data\HopefullyOfficialGraphs\Language\chinaLang.png")
+    china = Image.open(r"chinaLang.png")
     return china
 @st.cache
 def load_iran():
-    iran = Image.open(r"C:\Users\eevee\Cal Poly\Vanessa Christine Veto - Redo Twitter Data\HopefullyOfficialGraphs\Language\iranLang.png")
+    iran = Image.open(r"iranLang.png")
     return iran
 @st.cache
 def load_russia():
-    russia = Image.open(r"C:\Users\eevee\Cal Poly\Vanessa Christine Veto - Redo Twitter Data\HopefullyOfficialGraphs\Language\russiaLang.png")
+    russia = Image.open(r"russiaLang.png")
     return russia
 @st.cache
 def load_serbia():
-    serbia = Image.open(r"C:\Users\eevee\Cal Poly\Vanessa Christine Veto - Redo Twitter Data\HopefullyOfficialGraphs\Language\serbLang.png")
+    serbia = Image.open(r"serbLang.png")
     return serbia
 @st.cache
 def load_turkey():
-    turkey = Image.open(r"C:\Users\eevee\Cal Poly\Vanessa Christine Veto - Redo Twitter Data\HopefullyOfficialGraphs\Language\turkLang.png")
+    turkey = Image.open(r"turkLang.png")
     return turkey
 @st.cache
 def load_ven():
-    ven = Image.open(r"C:\Users\eevee\Cal Poly\Vanessa Christine Veto - Redo Twitter Data\HopefullyOfficialGraphs\Language\venLang.jpg")
+    ven = Image.open(r"venLang.jpg")
     return ven
 
 l, m, r = st.columns((1,10,1))
