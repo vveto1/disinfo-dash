@@ -8,9 +8,7 @@ Created on Fri Apr 14 09:28:56 2023
 # importing libraries --------------------------
 import streamlit as st
 import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
-import seaborn as sb
+
 
 #streamlit basic configurations
 st.set_page_config(layout='wide', initial_sidebar_state='expanded')
