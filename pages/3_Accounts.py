@@ -8,9 +8,7 @@ Created on Mon Apr 24 11:50:50 2023
 # importing libraries --------------------------
 import streamlit as st
 import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
-import seaborn as sb
+
 
 #streamlit basic configurations
 st.set_page_config(layout='wide', initial_sidebar_state='expanded')
@@ -54,13 +52,13 @@ st.markdown(i2,unsafe_allow_html=True)
 from PIL import Image
 @st.cache
 def load_follcountry():
-    follcountry = Image.open(r"C:\Users\eevee\Cal Poly\Vanessa Christine Veto - Redo Twitter Data\HopefullyOfficialGraphs\Accounts\followersByCountry.png")
+    follcountry = Image.open(r"followersByCountry.png")
     return follcountry
 @st.cache
 def load_foll():
-    foll = Image.open(r"C:\Users\eevee\Cal Poly\Vanessa Christine Veto - Redo Twitter Data\HopefullyOfficialGraphs\Accounts\followers-bar.png")
+    foll = Image.open(r"followers-bar.png")
     return foll
-#follint = Image.open(r"C:\Users\eevee\Cal Poly\Vanessa Christine Veto - Redo Twitter Data\HopefullyOfficialGraphs\Accounts\followersVsInteraction.png")
+#follint = Image.open(r"followersVsInteraction.png")
 
 st.image(load_follcountry())
 
