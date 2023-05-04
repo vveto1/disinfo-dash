@@ -8,9 +8,7 @@ Created on Mon Apr 24 11:49:26 2023
 # importing libraries --------------------------
 import streamlit as st
 import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
-import seaborn as sb
+
 
 #streamlit basic configurations
 st.set_page_config(layout='wide', initial_sidebar_state='expanded')
@@ -58,19 +56,19 @@ from PIL import Image
 
 @st.cache
 def load_overall():
-    overall = Image.open(r"C:\Users\eevee\Cal Poly\Vanessa Christine Veto - Redo Twitter Data\HopefullyOfficialGraphs\Engagement\OverallInteraction.png")
+    overall = Image.open(r"OverallInteraction.png")
     return overall
 @st.cache
 def load_likes():
-    likes = Image.open(r"C:\Users\eevee\Cal Poly\Vanessa Christine Veto - Redo Twitter Data\HopefullyOfficialGraphs\Engagement\L.jpg")
+    likes = Image.open(r"L.jpg")
     return likes
 @st.cache
 def load_rt():
-    rt = Image.open(r"C:\Users\eevee\Cal Poly\Vanessa Christine Veto - Redo Twitter Data\HopefullyOfficialGraphs\Engagement\RT.jpg")
+    rt = Image.open(r"RT.jpg")
     return rt
 @st.cache
 def load_rep():
-    rep = Image.open(r"C:\Users\eevee\Cal Poly\Vanessa Christine Veto - Redo Twitter Data\HopefullyOfficialGraphs\Engagement\RepliesGraph.jpg")
+    rep = Image.open(r"RepliesGraph.jpg")
     return rep
 
 l, m, r = st.columns((1,10,1))
