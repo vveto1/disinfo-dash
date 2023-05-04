@@ -8,9 +8,7 @@ Created on Wed May  3 15:50:00 2023
 # importing libraries --------------------------
 import streamlit as st
 import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
-import seaborn as sb
+
 
 #streamlit basic configurations
 st.set_page_config(layout='wide', initial_sidebar_state='expanded')
@@ -83,35 +81,35 @@ from PIL import Image
 
 @st.cache
 def load_pie():
-    pie = Image.open(r"C:\Users\eevee\Cal Poly\Vanessa Christine Veto - Redo Twitter Data\HopefullyOfficialGraphs\Sentiment\TweetsBySent.png")
+    pie = Image.open(r"weetsBySent.png")
     return pie
 @st.cache
 def load_countries():
-    countries = Image.open(r"C:\Users\eevee\Cal Poly\Vanessa Christine Veto - Redo Twitter Data\HopefullyOfficialGraphs\Sentiment\AvgPolCountry.png")
+    countries = Image.open(r"AvgPolCountry.png")
     return countries
 @st.cache
 def load_neginter():
-    neginter = Image.open(r"C:\Users\eevee\Cal Poly\Vanessa Christine Veto - Redo Twitter Data\HopefullyOfficialGraphs\Sentiment\Neginter.png")
+    neginter = Image.open(r"Neginter.png")
     return neginter
 @st.cache
 def load_posinter():
-    posinter = Image.open(r"C:\Users\eevee\Cal Poly\Vanessa Christine Veto - Redo Twitter Data\HopefullyOfficialGraphs\Sentiment\Posinter.png")
+    posinter = Image.open(r"Posinter.png")
     return posinter
 @st.cache
 def load_avgnegyr():
-    avgnegyr = Image.open(r"C:\Users\eevee\Cal Poly\Vanessa Christine Veto - Redo Twitter Data\HopefullyOfficialGraphs\Sentiment\Avgnegyear.png")
+    avgnegyr = Image.open(r"Avgnegyear.png")
     return avgnegyr
 @st.cache
 def load_avgposyr():
-    avgposyr = Image.open(r"C:\Users\eevee\Cal Poly\Vanessa Christine Veto - Redo Twitter Data\HopefullyOfficialGraphs\Sentiment\Avgposyear.png")
+    avgposyr = Image.open(r"Avgposyear.png")
     return avgposyr
 @st.cache
 def load_avgyr():
-    avgyr = Image.open(r"C:\Users\eevee\Cal Poly\Vanessa Christine Veto - Redo Twitter Data\HopefullyOfficialGraphs\Sentiment\Avgyear.png")
+    avgyr = Image.open(r"Avgyear.png")
     return avgyr
 @st.cache
 def load_yearmeanpol():
-    yearmeanpol = Image.open(r"C:\Users\eevee\Cal Poly\Vanessa Christine Veto - Redo Twitter Data\HopefullyOfficialGraphs\Sentiment\yearmeanpol.png")
+    yearmeanpol = Image.open(r"yearmeanpol.png")
     return yearmeanpol
 
 
