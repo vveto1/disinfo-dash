@@ -101,7 +101,7 @@ st.markdown(i1,unsafe_allow_html=True)
 i2= '<p style = "font-family:Sans Serif; color:Grey; font-size: 18px;">• China had the most Twitter accounts</p>'
 st.markdown(i2,unsafe_allow_html=True)
 
-with open("https://raw.githubusercontent.com/vveto1/disinfo-dash/a4e7c0f5566073bca41d330a6030a1e3fb28a29f/TweetsPerCountryDeep2.html", 'r') as f:
+with open("https://github.com/vveto1/disinfo-dash/blob/a0556108f3ed6831b40a601a3d34244fc2ba433b/TweetsPerCountryDeep2.html", 'r') as f:
         html_string = f.read()
 components.v1.html(html_string, width=1000, height=400, scrolling=False)
 
