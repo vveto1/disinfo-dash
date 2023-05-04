@@ -101,7 +101,7 @@ st.markdown(i1,unsafe_allow_html=True)
 i2= '<p style = "font-family:Sans Serif; color:Grey; font-size: 18px;">• China had the most Twitter accounts</p>'
 st.markdown(i2,unsafe_allow_html=True)
 
-with open("https://github.com/vveto1/disinfo-dash/blob/a0556108f3ed6831b40a601a3d34244fc2ba433b/TweetsPerCountryDeep2.html", 'r') as f:
+with open("https://raw.githubusercontent.com/vveto1/disinfo-dash/a0556108f3ed6831b40a601a3d34244fc2ba433b/TweetsPerCountryDeep2.html", 'r') as f:
         html_string = f.read()
 components.v1.html(html_string, width=1000, height=400, scrolling=False)
 
@@ -128,7 +128,7 @@ with c3:
 # st.markdown(maptitle,unsafe_allow_html=True)
 # st.image(acctmap)
 
-with open("https://github.com/vveto1/disinfo-dash/blob/6d0d8e12fefb4b413f8e2790348e6d79cc329f93/AccountsPerCountryDEEP.html", 'r') as f:
+with open("https://raw.githubusercontent.com/vveto1/disinfo-dash/6d0d8e12fefb4b413f8e2790348e6d79cc329f93/AccountsPerCountryDEEP.html", 'r') as f:
         html_string = f.read()
 components.v1.html(html_string, width=1000, height=400, scrolling=False)
 
