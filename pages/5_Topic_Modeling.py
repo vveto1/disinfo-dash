@@ -65,20 +65,20 @@ with c3:
 #rus = st.checkbox("Russia Results")
 if country=='Russia':
     st.header('Topic Modeling Results: Russia')
-    with open("C:/Users/eevee/Cal Poly/Vanessa Christine Veto - Redo Twitter Data/LDA/Russia/rus_lda.html", 'r') as f:
+    with open("rus_lda.html", 'r') as f:
         html_string = f.read()
     components.v1.html(html_string, width=1200, height=800, scrolling=True)
 
 #china = st.checkbox("China Results")
 if country=='China':
     st.header('Topic Modeling Results: China')
-    with open("C:/Users/eevee/Cal Poly/Vanessa Christine Veto - Redo Twitter Data/LDA/China/china_lda.html", 'r') as f:
+    with open("china_lda.html", 'r') as f:
         html_string = f.read()
     components.v1.html(html_string, width=1200, height=800, scrolling=True)
 
 #ven = st.checkbox("Venezuela Results", value=True)
 if country=='Venezuela':
     st.header('Topic Modeling Results: Venezuela')
-    with open("C:/Users/eevee/Cal Poly/Vanessa Christine Veto - Redo Twitter Data/LDA/Venezuela/ven_lda.html", 'r') as f:
+    with open("ven_lda.html", 'r') as f:
         html_string = f.read()
     components.v1.html(html_string, width=1200, height=800)
