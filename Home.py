@@ -128,7 +128,7 @@ with c3:
 # st.markdown(maptitle,unsafe_allow_html=True)
 # st.image(acctmap)
 
-with open("C:/Users/14157/OneDrive/OneDrive - California Polytechnic State University/Redo Twitter Data/Plots_PNG/Maps/AccountsPerCountryDEEP.html", 'r') as f:
+with open("https://github.com/vveto1/disinfo-dash/blob/6d0d8e12fefb4b413f8e2790348e6d79cc329f93/AccountsPerCountryDEEP.html", 'r') as f:
         html_string = f.read()
 components.v1.html(html_string, width=1000, height=400, scrolling=False)
 
