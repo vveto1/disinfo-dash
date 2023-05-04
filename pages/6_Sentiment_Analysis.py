@@ -81,7 +81,7 @@ from PIL import Image
 
 @st.cache
 def load_pie():
-    pie = Image.open(r"weetsBySent.png")
+    pie = Image.open(r"TweetsBySent.png")
     return pie
 @st.cache
 def load_countries():
