@@ -101,7 +101,7 @@ st.markdown(i1,unsafe_allow_html=True)
 i2= '<p style = "font-family:Sans Serif; color:Grey; font-size: 18px;">• China had the most Twitter accounts</p>'
 st.markdown(i2,unsafe_allow_html=True)
 
-with open("C:/Users/14157/OneDrive/OneDrive - California Polytechnic State University/Redo Twitter Data/Plots_PNG/Maps/TweetsPerCountryDeep2.html", 'r') as f:
+with open("TweetsPerCountryDeep2.html", 'r') as f:
         html_string = f.read()
 components.v1.html(html_string, width=1000, height=400, scrolling=False)
 
